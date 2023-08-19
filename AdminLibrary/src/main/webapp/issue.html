@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{
+background-image:url('https://cdn.pixabay.com/photo/2020/05/01/16/42/palacio-nacional-de-mafra-5118010_1280.jpg');
+background-attachment:fixed;
+height: 600px;
+width: 100%;
+position:fixed;
+
+display:flex;
+align-items: center;
+justify-content: center;
+}
+div{
+background-image: url("https://cdn.pixabay.com/photo/2016/01/30/23/30/wood-floor-1170744_1280.jpg");
+background-attachment:fixed;
+border-radius:25%;
+height: 330px;
+width: 430px;
+color: white;
+padding-top: 5%;
+padding-left: 6%;
+}
+</style>
+</head>
+
+<body>
+<div >
+<form action="issueBook" method="post">
+			<label>Book Id</label>
+			<input type="text" name="bId" required="required"><br><br>
+			<label>Student Id</label>
+			<input type="text" name="sId" required="required"><br><br>
+			<label>Issue Date</label>
+			<input type="date" name="iDate" required="required"><br><br>
+			<label>Due Date</label>
+			<input type="date" name="dDate" required="required"><br><br>
+			<input type="submit" style="background-color: green;" value="save" name="ur"></form>
+			<a href="home2.html"><button style="background-color: red">close</button></a>				
+</div>
+</body>
+</html>
